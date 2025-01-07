@@ -1,0 +1,49 @@
+.card {
+    max-width: 550px;
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card img, .card video {
+    width: 100%;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.technologies-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.technology {
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    padding: 10px 15px;
+}
+
+.more-details-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 768px){
+    .card {
+        max-width: 100%;
+    }
+}
