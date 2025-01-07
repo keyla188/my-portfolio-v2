@@ -45,7 +45,7 @@ function App() {
           <span>Front End Developer | Software Engineer Student</span>
           <div className="buttons-container">
             <button onClick={handleContactClick} className="primary-button">Contáctame</button>
-            <button onClick={() => window.open('src/assets/cv.pdf', '_blank')} className="secondary-button">
+            <button onClick={() => window.open('/assets/cv.pdf', '_blank')} className="secondary-button">
               Ver CV
             </button>
           </div>
@@ -72,7 +72,7 @@ function App() {
           <h2>Sobre mí</h2>
           <div className="about-me">
           <div>
-            <img src="/src/assets/photo.jpg" alt="my photo"/>
+            <img src="/assets/photo.jpg" alt="my photo"/>
           </div>
           <div className="my-description">
             <p>
