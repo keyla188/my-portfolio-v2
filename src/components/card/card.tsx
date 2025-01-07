@@ -5,7 +5,7 @@ import { IconCodeOff } from '@tabler/icons-react';
 import { IconVideoOff } from '@tabler/icons-react';
 import "./card.css";
 
-const Card=({id, name, img, technologies, githubLink, demoLink}: Card) => {
+const Card=({name, img, technologies, githubLink, demoLink}: Card) => {
 return(
     <div className="card">
     <div>
@@ -43,11 +43,13 @@ return(
                     <IconVideoOff stroke={2} />
                 )}
             </div>
+            {
+            /*
             <div>
             <a>
                 <span>Leer mas</span>
             </a>
-            </div>
+            </div>*/}
         </div>
     </div>
 
