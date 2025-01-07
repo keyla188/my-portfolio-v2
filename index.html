@@ -5,16 +5,46 @@
     <link rel="icon" type="image/svg+xml" href="/icon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- SEO -->
-    <meta name="description" content="¡Hola!Soy estudiante de Ingeniería de Software y me encanta el desarrollo web. Disfruto trabajar en frontend con Angular y conectar todo con el backend usando APIs RESTful. Trabajo con tecnologías como JavaScript, TypeScript, MySQL y MongoDB, y me encanta diseñar interfaces atractivas con HTML y SCSS. También soy parte de comunidades tech donde he aprendido mucho sobre trabajo en equipo, comunicación y resolución de problemas. Siempre estoy buscando nuevos retos para seguir aprendiendo y aportar lo mejor de mí." />
-    <meta name="keywords" content="desarrollador frontend, Angular, JavaScript, software, tecnología, desarrollo web" />
+    <meta
+      name="description"
+      content="¡Hola!Soy estudiante de Ingeniería de Software y me encanta el desarrollo web. Disfruto trabajar en frontend con Angular y conectar todo con el backend usando APIs RESTful. Trabajo con tecnologías como JavaScript, TypeScript, MySQL y MongoDB, y me encanta diseñar interfaces atractivas con HTML y SCSS. También soy parte de comunidades tech donde he aprendido mucho sobre trabajo en equipo, comunicación y resolución de problemas. Siempre estoy buscando nuevos retos para seguir aprendiendo y aportar lo mejor de mí."
+    />
+    <meta
+      name="keywords"
+      content="desarrollador frontend, Angular, JavaScript, software, tecnología, desarrollo web"
+    />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://keylacabrera.vercel.app" />
     <!-- Open Graph -->
-    <meta property="og:title" content="Keyla Cabrera Alcala - Front End Developer" />
-    <meta property="og:description" content="¡Hola!Soy estudiante de Ingeniería de Software y me encanta el desarrollo web. Disfruto trabajar en frontend con Angular y conectar todo con el backend usando APIs RESTful. Trabajo con tecnologías como JavaScript, TypeScript, MySQL y MongoDB, y me encanta diseñar interfaces atractivas con HTML y SCSS. También soy parte de comunidades tech donde he aprendido mucho sobre trabajo en equipo, comunicación y resolución de problemas. Siempre estoy buscando nuevos retos para seguir aprendiendo y aportar lo mejor de mí." />
-    <meta property="og:image" content="https://keylacabrera.vercel.app/open-graph.jpg" />
+    <meta
+      property="og:title"
+      content="Keyla Cabrera Alcala - Front End Developer"
+    />
+    <meta
+      property="og:description"
+      content="¡Hola!Soy estudiante de Ingeniería de Software y me encanta el desarrollo web. Disfruto trabajar en frontend con Angular y conectar todo con el backend usando APIs RESTful. Trabajo con tecnologías como JavaScript, TypeScript, MySQL y MongoDB, y me encanta diseñar interfaces atractivas con HTML y SCSS. También soy parte de comunidades tech donde he aprendido mucho sobre trabajo en equipo, comunicación y resolución de problemas. Siempre estoy buscando nuevos retos para seguir aprendiendo y aportar lo mejor de mí."
+    />
+    <meta
+      property="og:image"
+      content="https://keylacabrera.vercel.app/open-graph.jpg"
+    />
     <meta property="og:url" content="https://keylacabrera.vercel.app" />
     <meta property="og:type" content="website" />
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-K5SPZRWW");
+    </script>
+    <!-- End Google Tag Manager -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,6 +55,16 @@
     <title>Keyla</title>
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-K5SPZRWW"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
