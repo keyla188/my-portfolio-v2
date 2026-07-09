@@ -1,0 +1,19 @@
+.stat-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 24px;
+}
+
+.stat-card__value {
+  font-family: var(--font-heading);
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--accent-hover);
+}
+
+.stat-card__label {
+  margin-top: 6px;
+  font-size: 14px;
+  color: var(--text-muted-55);
+}
