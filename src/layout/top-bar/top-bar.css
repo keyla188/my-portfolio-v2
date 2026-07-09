@@ -1,0 +1,53 @@
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 6vw;
+}
+
+.top-bar__logo {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--text);
+  letter-spacing: 0.02em;
+}
+
+.top-bar__logo-dot {
+  color: var(--accent);
+}
+
+.top-bar__actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.top-bar__email {
+  font-size: 13px;
+  color: var(--text-muted-55);
+  letter-spacing: 0.03em;
+  border: 1px solid var(--border-interactive);
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+}
+
+.top-bar__email:hover {
+  color: var(--accent-hover);
+  border-color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .top-bar {
+    padding: 20px 6vw;
+  }
+
+  .top-bar__email {
+    display: none;
+  }
+}

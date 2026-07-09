@@ -1,0 +1,78 @@
+.experience {
+  width: 82%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0 140px;
+}
+
+.experience__timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience__row {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 32px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.experience__dates {
+  font-size: 14px;
+  color: var(--text-muted-45);
+  font-weight: 500;
+}
+
+.experience__details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.experience__role {
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.experience__company {
+  margin-top: 2px;
+  font-size: 15px;
+  color: var(--accent-hover);
+  font-weight: 500;
+}
+
+.experience__highlights {
+  margin: 0;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-muted-65);
+}
+
+.experience__stack {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.experience__stack-tag {
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  background: var(--accent-tint-10);
+  color: var(--accent-hover);
+  border: 1px solid var(--accent-tint-25);
+}
+
+@media (max-width: 768px) {
+  .experience__row {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}

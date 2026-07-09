@@ -1,0 +1,12 @@
+.reveal {
+  position: relative;
+  z-index: 1;
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.45s ease-out, transform 0.45s ease-out;
+}
+
+.reveal--visible {
+  opacity: 1;
+  transform: translateY(0);
+}

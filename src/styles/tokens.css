@@ -1,0 +1,58 @@
+:root {
+  --bg: #0a0a0b;
+  --surface: #131116;
+  --surface-alt: #141216;
+
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.14);
+  --border-interactive: rgba(255, 255, 255, 0.18);
+
+  --text: #f5f3f7;
+  --text-muted-65: rgba(245, 243, 247, 0.65);
+  --text-muted-55: rgba(245, 243, 247, 0.55);
+  --text-muted-45: rgba(245, 243, 247, 0.45);
+  --text-muted-35: rgba(245, 243, 247, 0.35);
+
+  --accent: #7c5cfc;
+  --accent-hover: #a894fc;
+  --accent-tint-10: rgba(124, 92, 252, 0.1);
+  --accent-tint-15: rgba(124, 92, 252, 0.15);
+  --accent-tint-25: rgba(124, 92, 252, 0.25);
+
+  --glow-strong: rgba(124, 92, 252, 0.35);
+  --glow-soft: rgba(124, 92, 252, 0.16);
+  --glow-softer: rgba(124, 92, 252, 0.1);
+
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "K2D", sans-serif;
+
+  --radius-pill: 50px;
+  --radius-card: 16px;
+  --radius-card-lg: 18px;
+}
+
+[data-theme="light"] {
+  --bg: #f5f4f8;
+  --surface: #ffffff;
+  --surface-alt: #ffffff;
+
+  --border: rgba(20, 16, 30, 0.08);
+  --border-strong: rgba(20, 16, 30, 0.12);
+  --border-interactive: rgba(20, 16, 30, 0.16);
+
+  --text: #17151c;
+  --text-muted-65: rgba(23, 21, 28, 0.65);
+  --text-muted-55: rgba(23, 21, 28, 0.55);
+  --text-muted-45: rgba(23, 21, 28, 0.45);
+  --text-muted-35: rgba(23, 21, 28, 0.35);
+
+  --accent: #6b46f5;
+  --accent-hover: #7c5cfc;
+  --accent-tint-10: rgba(107, 70, 245, 0.08);
+  --accent-tint-15: rgba(107, 70, 245, 0.12);
+  --accent-tint-25: rgba(107, 70, 245, 0.18);
+
+  --glow-strong: rgba(107, 70, 245, 0.22);
+  --glow-soft: rgba(107, 70, 245, 0.12);
+  --glow-softer: rgba(107, 70, 245, 0.08);
+}
